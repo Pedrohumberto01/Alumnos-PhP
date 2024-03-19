@@ -1,0 +1,68 @@
+
+body
+{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content:  center;
+}
+
+.titulo
+{
+	text-align: center;
+	width: 1200px;
+	height: 100px;
+	background-color: royalblue;
+	color: white;
+}
+
+.texto-titulo
+{
+	padding-top: 15px;
+}
+
+.contenedor
+{
+	width: 1000px;
+	background-color: royalblue;
+}
+
+.formulario
+{
+	display: flex;
+	flex-direction: column;
+}
+
+input
+{
+	width: 400px;
+	margin: 10px;
+}
+
+.Enviar
+{
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+	width: 150px;
+}
+
+
+/* carta */
+
+.carta
+{
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+
+.imagen-carta
+{
+	margin: 10px;
+}
+
+.contenido-carta
+{
+	display: flex;
+}
